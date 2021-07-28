@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            height: 750px;
+            max-width: 800px;
+            border: 2px solid green;
+        }
+
+        .con>div {
+            height: 80px;
+            background-color: rgb(20, 117, 20);
+            border: 4px solid grey;
+        }
+
+        .container div .con {
+            flex-direction: column;
+        }
+
+        .con {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 10px 0;
+            background-color: lightgreen;
+            border: 2px solid black;
+            width: 100px;
+        }
+
+         .col1 {
+            justify-content: flex-start;
+        } 
+
+         .col2 {
+            justify-content: flex-end;
+        } 
+
+        .col3 {
+            justify-content: center;
+        }
+
+        .col4 {
+            justify-content: space-around;
+        }
+
+        .col5 {
+            justify-content: space-between;
+        }
+
+        .col6 {
+            justify-content: space-evenly;
+        }
+    </style>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- flex-start -->
+        <div class="con col1 ">
+        <div>First</div>
+        <div>Second</div>
+        <div>Third</div>
+        <div>Fourth</div>
+    </div>
+    <div class="con col2">
+            <!-- flex-end -->
+            <div>First</div>
+            <div>Second</div>
+            <div>Third</div>
+            <div>Fourth</div>
+        </div>
+        <div class="con col3 ">
+            <!-- <h4>center</h4> -->
+            <div>First</div>
+            <div>Second</div>
+            <div>Third</div>
+            <div>Fourth</div>
+        </div>
+        <div class="con col4 ">
+            <!--  <h4>space around</h4> -->
+            <div>First</div>
+            <div>Second</div>
+            <div>Third</div>
+            <div>Fourth</div>
+        </div>
+        <div class="con col5">
+            <!-- <h4>space-between</h4> -->
+            <div>First</div>
+            <div>Second</div>
+            <div>Third</div>
+            <div>Fourth</div>
+        </div>
+        <div class="con col6">
+            <!--   <h4>space evenly</h4> -->
+            <div>First</div>
+            <div>Second</div>
+            <div>Third</div>
+            <div>Fourth</div>
+        </div>
+    </div>
+</body>
+
+</html>
