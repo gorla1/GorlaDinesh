@@ -1,0 +1,263 @@
+1. write the correct syntax used to define Doctype in HTML5.
+
+ <!DOCTYPE html>
+
+**********************************************************************************
+2.The <!DOCTYPE html> declaration is considered as an HTML tag. (TRUE/FALSE) ? 
+
+FALSE
+
+***********************************************************************************
+3. Which of the following are three modes that are defined by layout engineers in web browsers?
+   Choose the correct Options 
+A) 1. Specification Mode
+   2. Full Add-on mode
+   3. Compliant Mode
+ *********
+B) 1. Quirks Mode 
+   2. Almost Standards Mode
+   3. Full Standards Mode
+ ********* 
+C) 1.Contingency MOde
+   2. All-hands MOde
+   3.Full Standards Mods
+ ************
+D) 1.Quirks Mode
+   2.Compliant Mode 
+   3.Specifications Mode 
+   
+   
+  B) 1. Quirks Mode 
+     2. Almost Standards Mode
+     3. Full Standards Mode
+
+
+********************************************************************************
+ 4. With DOCTYPE placed at the start of the HTML markup, which mode is enabled in web browsers?
+    Choose the correct Option
+   a. Quirks Mode 
+   b. Almost Standards Mode
+   c. Full Standards Mode 
+   
+   full standard mode
+   
+*********************************************************************************
+5. Will adding any non-executing code, e.g. comments, before the DOCTYPE declaration have any effect? Why? 
+
+no because non-executing code dosen't have any effect wether it is placed above or below the DOCTYPE
+
+
+**********************************************************************************
+6. What is the main issue that arises if we don’t define DOCTYPE at the beginning of our HTML code?
+  Choose the coreect options 
+  a. Quirks Mode is activated 
+  b. There are no problems, all goes well either way with the full standard compliance 
+  
+  Quirks MOde is activated
+  
+  
+************************************************************************************************  
+  
+  
+  
+  
+  
+  
+  1.Metadata stores information about the web page that is not necessarily visible to the end-users.
+TRUE or FALSE ? 
+
+TRUE
+
+*****************************************************************************************************
+
+2. In which part of the HTML markup do we place the metadata of a web page?
+
+HEAD
+
+*********************************************************************************************
+
+3. write ths functions of the robots meta tag?
+ ex : noIndex etc...
+ 
+ it is a piece of code that provides crawlers instructions about how to crawl and find something specific eg: noIndex,nofollow
+   
+******************************************************************************************
+4.Which of the following metadata attributes is NOT supported in HTML5?
+   choose the correct option
+   a. scheme 
+   b. content
+   c. http-equiv
+   d.name 
+   
+   scheme
+
+***************************************************************************************
+5.Which of the following attributes prevents search engines from following links on a web page?
+  a.noarchive 
+  b.noindex
+  c.nofollow
+  d.novalue
+  
+  nofollow
+  
+************************************************************************************
+6.The time interval in seconds before the browser performs a refresh action is represented by the value of the ________ attribute.
+
+content
+
+************************************************************************************
+7.Which of the  attributes prevents search engines from showing a cached link for a web page?
+
+Block search indexing
+
+***************************************************************************************
+8.Define the role of the charset attribute.
+
+ html charset attribute is used to specify the character encoding for the html document. it can be overridden by using lang attribute.
+ 
+ *************************************************************************
+9.Which of the attributes prevents a certain web page from being indexed by a search engine altogether?
+
+noIndex
+
+*********************************************************************************
+10.How would you define the usage of the viewport meta tag in HTML5?
+
+viewport: A Browser’s viewport is the area of web page in which the content is visible to the user. 
+The viewport does not have the same size, it varies with the variation in screen size of the devices 
+on which the website is visible.
+
+When a page is not made responsive for smaller viewports it looks bad or even breaks on smaller screen. 
+To fix this problem introduce a responsive tag to control the viewport.
+
+*************************************************************************************
+11.Please specify the attributes supported by the <meta> tag. State the purpose of each.
+
+<meta> tag attribute:
+
+charset   :		Specifies the character encoding for the HTML document
+name	  :		Specifies a name for the metadata
+content   :		Specifies the value associated with the http-equiv or name attribute
+http-equiv:		Provides an HTTP header for the information/value of the content attribute
+   
+   
+   
+   
+   
+   
+   You are the author of a course on CODE.IN. 
+You are required to add the following meta-data:
+
+The description (name) of your course,
+Search engine keywords relevant to the course,
+Course author name
+Define the time period after which your web page refreshes its contents
+Set viewport for your webpage.
+You are required to write code below to describe this metadata within an HTML document.
+
+```
+<html>
+<!--Add your code here-->
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="React js toutorials">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Dinesh">
+    <meta http-equiv="refresh" content="5" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body></body>
+</html>
+```
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: blue;">Scooby Doo's Book Report </h1>
+    <p>The <strong>Gatsby</strong> is a 1925 novel written by American author <em>F. Scott Fitzgerald</em> that follows 
+        a cast of characters living in the fictional<br>towns of West Egg and East Egg on prosperous Long Island in the summer of 1922.
+         Many literary critics consider The Great Gatsbt to <br> be one of the <strong><em>greatest</em></strong> novels ever written Wikipedia
+        </p>
+        <h1 style="color: blue;">Scooby Doo's Favourite Snacks</h1>
+        <ul>
+            <li>Scooby snacks</li>
+            <li>Corn chips</li>
+            <li>Doughnuts</li>
+        </ul>
+        <h1 style="color: blue;">Scooby Doo's Grocery List</h1>
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+        
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: pink">
+    <h1>Recipe: Boiled Egg</h1>
+    <h3>Ingredients</h3>
+    <ul>
+        <li>Egg</li>
+        <li>Water</li>
+    </ul>
+    <h2>Istructions</h2>
+    <ol type="i">
+        <li><p>Put the eggs in a large pot with a lid. Pour cool water over the eggs until fully submerged and add the baking soda to the water<br>Put the pot over high heat and bring to a boil.</p></li>
+        <li>Once the water is a rolling boil, turn off the heat and cover the pot with the lid. Allow the eggs to sit in the hot water for the <br>following times according to the desired doneness: 3 minutes for SOFT boiled; 6 minutes for MEDIUM boiled; 12 minutes for <br>HARD boiled.</li>
+        <li>Prepare a bowl of ice water. Transfer the cooked eggs to the ice water completely before peeling.</li>
+    </ol>
+        
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: tomato">The mark element</h1>   
+    <p>Do not forget to buy <mark>milk</mark> today</p> 
+    <h1 style="color: tomato;">Phrase elements</h1>
+    <p><em>Emphasied text</em></p>
+    <p><Strong>Strong text</Strong></p>
+    <pre>
+A piece of computer code
+Sample output from a computer program
+keyboard input
+<em>Variable</em>
+    </pre>
+    <h1 style="color: tomato;">The &#60;blink&#62; Element </h1>
+    <p>The &#60;blink&#62; element is deprecated. To attain blinking effect you should use CSS or JavaScript. See examples in the nect section</p>
+</body>
+</html>

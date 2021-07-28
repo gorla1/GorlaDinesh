@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Studio Smart Conference</title>
+    <style>
+        body{
+            width: 50%;
+            margin: 50px;
+            border: black 1px solid;
+            padding-bottom: 2%;
+            
+        }
+        .container
+        {
+            width: 450px;
+            margin: 0 auto;
+        }
+        table{
+            width: 100%;
+        }
+
+        fieldset
+        {
+            background-color: rgb(224, 228, 235);
+            margin: 40px 0;
+        }
+        input[type="email"]
+        {
+            width: 230px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Fill in this form to register to Visual Studio Smarts Conferences</h2>
+        <form method="post">
+            <fieldset>
+                <legend><strong>Personal Data</strong></legend>
+                <table >
+                    <tr>
+                        <td>
+                            <label for="">Salutation</label>
+                        </td>
+                        <td>
+                            <select id="">
+                                <option>Mr.</option>
+                                <option>Mrs.</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fName">First Name:</label></td>
+                        <td><input type="text" id="fName"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lName">Last Name:</label></td>
+                        <td><input type="text" id="lName"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td colspan="2"><input type="email" id="email" pattern="[A-za-z0-9]+@[a-z]+.[a-z]{2,}"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="3"><strong>Your Smarts Membership status</strong></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="status" >Not a member
+                        </td>
+                        <td>
+                            <input type="radio" name="status" >Silver member
+                        </td>
+                        <td>
+                            <input type="radio" name="status" >Gold member
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <a href="#">Read more about Smarts membership</a>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Your Conference Account</strong></legend>
+                <table>
+                    <tr>
+                        <td><label for="login">Login name:</label></td>
+                        <td><input type="text" id="login"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="psw">Password:</label></td>
+                        <td><input type="password" pattern="[a-zA-Z0-9]{8,}" id="psw"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="psw">Confirm Password:</label></td>
+                        <td><input type="password" pattern="[a-zA-Z0-9]{8,}" id="psw"></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Sessions</strong></legend>
+                <table>
+                    <tr>
+                        <td colspan="3"><strong>What are the tracks you are interested in?</strong></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">Development
+                        </td>
+                        <td>
+                            <input type="checkbox">ALM
+                        </td>
+                        <td>
+                            <input type="checkbox">ASP.NET
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">C#
+                        </td>
+                        <td>
+                            <input type="checkbox">Visual Basic
+                        </td>
+                        <td>
+                            <input type="checkbox">SQL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <strong>What do you expect from sesions?</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <textarea cols="50" rows="4"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <button type="submit" >Resister</button>
+        </form>
+    </div>
+</body>
+</html>

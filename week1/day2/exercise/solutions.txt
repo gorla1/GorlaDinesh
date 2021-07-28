@@ -1,0 +1,144 @@
+
+What is the width of the content area of a border box element having a 300px width, 30px padding, and 5px border?
+
+115px
+***********************************************
+
+What is the width of the left margin of a border box element having a 300px width, 30px padding, auto margin, and 5px border, assuming the viewport width is 540px?
+
+85px
+************************************
+
+Knowing the properties of the content-box and the border-box model, what elements would the padding-box contain?
+a)Padding and content 
+b) Only Content
+c) Only Padding
+
+Padding and content
+*******************************************
+
+Which properties do the different box-sizing property values influence assuming that all values are given in pixels?
+a) width
+b)width and height
+c) border and padding
+d) border only
+
+Width and height
+*******************************************
+
+
+What will happen if the height and width of a video are not set while it loads?
+a) the web page flickers
+b) the web page does not load 
+c) the web page crashes
+d) the web page closes
+
+
+THE WEB PAGE FLICKERS
+*******************************************************
+In HTML Audio/Video DOM, which of the following sets or returns whether the audio/video should be loaded when the page loads?
+a) preload
+b) autoplay
+c)buffered
+
+PRELOAD
+**************************************************
+The <source> element allows you to specify alternative video files that the browser may choose from.
+The browser will use the first recognized format.
+a) True
+b)False
+
+TRUE
+********************************************************
+In HTML Audio/Video DOM, which of the following sets or returns the default speed of the audio/video playback?
+a)currentTime
+b)duration
+c)defaultPlaybackrate
+d)playbackRate
+
+ currentTime
+ 
+******************************************************************
+Which of the following HTML Video – Media Type is not supported in IE?
+a)webm
+b)mp4
+c)ogg
+
+Ogg
+*************************************************************
+In HTML Audio/Video DOM, which of the following returns a TimeRanges object representing the buffered parts of the audio/video?
+a)preload
+b)networkState
+c)buffered
+d)controller
+
+Buffered
+************************************************************
+In HTML Audio/Video DOM, which of the following sets or returns the CORS settings of the audio/video?
+
+CurrentTime set
+**************************************************************
+In the example below, 
+the text between video tags will only be displayed in browsers that do not support the video element.
+ ```
+ <video width="520" height="340" controls>
+  <source src="good_movie.mp4" type="video/mp4">
+  <source src="good_movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video> 
+  ```
+a) True
+b)False
+
+TRUE
+*******************************************************************
+
+In the HTML Audio/Video DOM, which of the following returns a MediaError object representing the error state of the audio/video?
+
+The error property returns a MediaError object
+
+
+
+How do we align the text of the following block-level element to the right?
+```
+<nav class="main-navigation">
+  Home | About | Contact
+</nav>
+```
+using float : right; CSS property
+*********************************************************
+Remove the underline from the links.
+```
+<nav class="main-navigation">
+  <a href="#" class="main-navigation__item">Home</a> | 
+  <a href="#" class="main-navigation__item">About</a> | 
+  <a href="#" class="main-navigation__item">Contact</a>
+</nav>
+```
+a{
+textdecoration : none;
+}
+********************************************************
+Name at least five block-level elements.
+h1-h5
+article 
+fieldset
+header
+main
+per
+***************************************************
+When choosing between a ```<section>``` and a ```<div>```  to represent a section in the page, which one would you prefer?
+
+<section>
+
+****************************************************
+Suppose the selector ```a[href] .c.d[type=text]``` is given. Which is the key selector?
+
+class (.d)
+*************************************************
+What is the desired way to make the text of a paragraph bold?
+
+<b> tag
+**************************************************
+
+

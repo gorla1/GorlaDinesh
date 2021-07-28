@@ -1,0 +1,61 @@
+Suppose we have the following markup:
+```
+<section class="blog">
+  <div class="blogpost">1</div>
+  <div class="blogpost">2</div>
+  <div class="blogpost">3</div>
+</section>
+```
+How do we set up a Flexbox containing the three blogposts?
+******************************************************************************
+Can a Flexbox child element also be a Flexbox container?
+
+****************************************************************
+The main axis of a flex-direction: row-reverse; Flexbox container is ?
+*********************************************************************
+The align-content property is a property on… ?
+******************************************************************
+What is the default value of flex-direction?
+*****************************************************************
+What is the default value of flex-wrap?
+********************
+
+What is the order of the two values of flex-flow?
+***************************************************
+How many rows this container have ?
+```<div class="container">
+  <div class="blogpost">Post 1</div>
+  <div class="blogpost">Post 2</div>
+  <div class="blogpost">Post 3</div>
+  <div class="blogpost">Post 4</div>
+  <div class="blogpost">Post 5</div>
+  <div class="blogpost">Post 6</div>
+  <div class="blogpost">Post 7</div>
+</div>```
+```.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 600px;
+}
+
+.blogpost {
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: lightgrey;
+  max-width: 200px;
+  height: 100px;
+}
+```
+****************************************
+What is the default margin for the body tag used for your HTML page in most major web browsers?
+**************************************
+
+Do inline elements also follow the box-model concept?
+*************************************************
+The ```_________``` property is used to keep the size of a div element fixed while adding padding to it.
+******************************************************
+
+Which of the following property defines the style for the left border of an element?
+********************************************************
+
+Which of the following property controls the horizontal overflow of a block or inline-block?
